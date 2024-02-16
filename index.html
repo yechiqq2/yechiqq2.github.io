@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="webthemez">
-<title>DongDong Information Website Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="yechi">
+  <title>DongDong Information Website Template</title>
 
-<!-- Bootstrap core CSS -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/jquery-3.7.1.min.js"></script>
 
-<!-- Custom CSS -->
-<link href="assets/css/styles.css" rel="stylesheet">
-<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-<script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-94H4WX6E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    gtag('config', 'G-94H4WX6E');
+  </script>
+  -->
 </head>
-<body data-target="#navbar-main">
-<div id="navbar-main"> 
+<body>
+<div id="navbar"> 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-expand-sm navbar-inverse navbar-fixed-top fixed-top">
+  <div class="navbar navbar-expand-sm fixed-top">
     <div class="container">
-	 
       <div class="navbar-header">
-	      <div class="pull-left logo">
-          <a class="" href="#home"><img src="assets/img/logo.png" /></a>
+	      <div class="logo">
+          <a class="" href="index.html"><img src="img/logo.png" /></a>
         </div>
       </div>
-      <ul class="navbar-nav pull-right">
-        <li class="nav-item active"><a href="#home-section" class="nav-link">Welcome</a></li>
+      <ul class="nav">
+        <li class="nav-item active"><a href="#headerwrap" class="nav-link">Welcome</a></li>
         <li class="nav-item"> <a href="#services" class="nav-link">We Offer</a></li>		  
         <li class="nav-item"> <a href="#about" class="nav-link"> Our Shop</a></li>
         <li class="nav-item"> <a href="#portfolio" class="nav-link"> Special</a></li>
         <li class="nav-item"> <a href="#team" class="nav-link"> Chef Team</a></li>
         <li class="nav-item"> <a href="#contact" class="nav-link"> Get In Touch</a></li>
       </ul>
-      <!--/.nav-collapse --> 
     </div>
   </div>
 </div>
 
 <!-- ==== HEADERWRAP ==== -->
-<div id="home-section">
-<div id="headerwrap" name="home">
-  <header class="clearfix tb"> 
- <div class="tb-cell text-center">
- <i class="fa fa-heart-o icon"></i>
-    <h1>Coffee - Makes you Love</h1>
-    <p>A Lot Can Happen Over Coffee, Its Awesome!!! </p>
-    <a href="#portfolio" class="smoothScroll btn btn-lg">Today's Special</a> 
-	</div>
-	</header>
-</div>
-
+<div id="headerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <i class="fa fa-heart-o icon"></i>
+        <h1>Coffee - Makes you Love</h1>
+        <p>A Lot Can Happen Over Coffee, Its Awesome!!! </p>
+        <a href="#portfolio" class="smoothScroll btn btn-lg">Today's Special</a> 
+      </div>
+    </div>
+  </div>
 </div>
 <div class="div-pattern2"></div>
 <!-- /headerwrap --> 
 
-
-
 <!-- ==== SERVICES ==== -->
-<div id="services" name="services">
-  <div class="container">
+<div id="services">
+  <div class="container text-center">
     <div class="row">
-      <h2 class="centered">WHAT WE OFFER</h2>
+      <h2>WHAT WE OFFER</h2>
       <hr>
       <div class="col-lg-8 offset-lg-2">
         <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -93,30 +90,27 @@
   </div>
 </div>
 <!-- container --> 
-<section class="hero-section section">  
-        <div class="container">
-            <div class="highlight tb">
-                <div class="tb-cell">
-                    <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui!</br>
-					erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei!!</p>
-                </div>
-                <div class="links tb-cell">
-                    <div class="reservation-link">
-                        <a href="#" class="btn reservation-btn">RESERVATION</a> 
-                    </div> 
-                </div>
-            </div>
-        </div>
-		
-    </section>
-	<div class="div-pattern"></div>
-<!-- ==== ABOUT ==== -->
-<div id="about" name="about">
+<div class="hero-section section">  
   <div class="container">
-    <div class="row white">
+    <div class="row">
+      <div class="col-md-10"> 
+        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui!</br>
+          erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei!!
+        </p>
+      </div>
+      <div class="col-md-2"> <a href="#" class="btn reservation-btn float-end">RESERVATION</a>  </div>
+    </div>
+  </div>	
+</div>
+<div class="div-pattern"></div>
+
+<!-- ==== ABOUT ==== -->
+<div id="about">
+  <div class="container">
+    <div class="row">
       <h2 class="centered">Our Shop</h2>
       <hr>
-      <div class="col-md-6"> <img class="img-fluid" src="assets/img/about/about1.jpg" align=""> </div>
+      <div class="col-md-6"> <img class="img-fluid" src="img/about/about1.jpg"> </div>
       <div class="col-md-6">
         <h3>Who we are</h3>
         <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p>
@@ -124,12 +118,11 @@
         <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel.</p>
       </div>
     </div>
-    <!-- row --> 
   </div>
 </div>
-<!-- container --> 
+
 <!-- ==== PORTFOLIO ==== -->
-<div id="portfolio" name="portfolio">
+<div id="portfolio">
   <div class="container">
     <div class="row">
       <h2 class="centered">What Special</h2>
@@ -138,125 +131,96 @@
         <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
       </div>
     </div>
-    <!-- /row -->
-    <div class="container">
-      <div class="row"> 
+    <div class="row"> 
         
-        <!-- PORTFOLIO IMAGE 1 -->
-        <div class="col-md-4 ">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-              <figcaption>
-                <h5>Coco Cake</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
-        </div> 
-        
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Rose Cake</h4>
-              </div>
-              <div class="modal-body">
-                <p><img class="img-responsive" src="assets/img/portfolio/folio01-preview.jpg" alt=""></p>
-                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. </p> 
-              </div> 
-            </div>
-            <!-- /.modal-content --> 
-          </div>
-          <!-- /.modal-dialog --> 
+      <!-- PORTFOLIO IMAGE 1 -->
+      <div class="col-md-4 ">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio01.jpg" alt="">
+            <figcaption>
+              <h5>Coco Cake</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
         </div>
-        <!-- /.modal --> 
-        
-        <!-- PORTFOLIO IMAGE 2 -->
-        <div class="col-md-4">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-              <figcaption>
-                <h5>Green Tea</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 3 -->
-        <div class="col-md-4">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-              <figcaption>
-                <h5>Cappuccino</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
-        </div>
-      </div>
-      <!-- /row --> 
+        <!-- /grid-overlay --> 
+      </div> 
       
-      <!-- PORTFOLIO IMAGE 4 -->
-      <div class="row">
-        <div class="col-md-4 ">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
-              <figcaption>
-                <h5>Green Tea</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
+      <!-- PORTFOLIO IMAGE 2 -->
+      <div class="col-md-4">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio02.jpg" alt="">
+            <figcaption>
+              <h5>Green Tea</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
         </div>
-        
-        <!-- PORTFOLIO IMAGE 5 -->
-        <div class="col-md-4">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-              <figcaption>
-                <h5>Cookies</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
-        </div>
-        
-        <!-- PORTFOLIO IMAGE 6 -->
-        <div class="col-md-4">
-          <div class="grid overlay">
-            <figure> <img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
-              <figcaption>
-                <h5>Cake</h5>
-                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
-              <!-- /figcaption --> 
-            </figure>
-            <!-- /figure --> 
-          </div>
-          <!-- /grid-overlay --> 
-        </div>
-        <!-- /col --> 
+        <!-- /grid-overlay --> 
       </div>
-      <!-- /row --> 
+      
+      <!-- PORTFOLIO IMAGE 3 -->
+      <div class="col-md-4">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio03.jpg" alt="">
+            <figcaption>
+              <h5>Cappuccino</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
+        </div>
+        <!-- /grid-overlay --> 
+      </div>
     </div>
     <!-- /row --> 
+    
+    <!-- PORTFOLIO IMAGE 4 -->
+    <div class="row">
+      <div class="col-md-4 ">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio04.jpg" alt="">
+            <figcaption>
+              <h5>Green Tea</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
+        </div>
+        <!-- /grid-overlay --> 
+      </div>
+      
+      <!-- PORTFOLIO IMAGE 5 -->
+      <div class="col-md-4">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio05.jpg" alt="">
+            <figcaption>
+              <h5>Cookies</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
+        </div>
+        <!-- /grid-overlay --> 
+      </div>
+      
+      <!-- PORTFOLIO IMAGE 6 -->
+      <div class="col-md-4">
+        <div class="grid overlay">
+          <figure> <img class="img-responsive" src="img/portfolio/folio06.jpg" alt="">
+            <figcaption>
+              <h5>Cake</h5>
+            <!-- /figcaption --> 
+          </figure>
+          <!-- /figure --> 
+        </div>
+        <!-- /grid-overlay --> 
+      </div>
+      <!-- /col --> 
+    </div>
   </div>
 </div>
 <!-- /container --> 
 
 <!-- ==== TEAM MEMBERS ==== -->
-<div id="team" name="team">
+<div id="team">
   <div class="container">
     <div class="row centered">
       <h2 class="centered">Meet Our Chef</h2>
@@ -267,19 +231,19 @@
       </div>
     </div>
     <div class="row centered">
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team01.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="img/team/team01.jpg" height="120px" width="120px" alt="">
         <h4><strong>Rennyl</strong></h4>
         <p>Consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team02.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="img/team/team02.jpg" height="120px" width="120px" alt="">
         <h4><b>Kristean</b></h4>
         <p>Consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="img/team/team03.jpg" height="120px" width="120px" alt="">
         <h4><b>Angilica</b></h4>
         <p>Consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
-      <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/team04.jpg" height="120px" width="120px" alt="">
+      <div class="col-lg-3 centered"> <img class="img img-circle" src="img/team/team04.jpg" height="120px" width="120px" alt="">
         <h4><b>Shannon</b></h4>
         <p>Consectetuer eu nam. Saepe legendos vulputate eu quo, id mea comprehensam signifer.</p>
         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
@@ -291,7 +255,7 @@
 <!-- container --> 
 
 <!-- ==== CONTACT ==== -->
-<div id="contact" name="contact">
+<div id="contact">
   <div class="container">
     <div class="row">
       <h2 class="centered">Get In Touch</h2>
@@ -346,7 +310,7 @@
 <div id="footerwrap">
   <div class="container">
     <div class="row">
-      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015. Design by <a href="http://www.webthemez.com">Webthemez</a></span> </div>
+      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2023. Design by <a href="http://dongdonginfo.com">Dongdong Information</a></span> </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
@@ -359,10 +323,6 @@
   </div>
 </div>
 
-<!-- Bootstrap core JavaScript
-    ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-
-<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
